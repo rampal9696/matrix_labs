@@ -1,0 +1,91 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500;600;700&family=Oswald:wght@200;300;400;500;600;700&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Montserrat';
+    font-style: normal;
+}
+
+
+
+.container{
+
+    margin:0px 10%;
+}
+
+.btn{
+
+    background: #3DBA41;
+    border-radius: 50px;
+    width: 176px;
+    height: 60px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 44px;
+    cursor: pointer;
+
+}
+
+.header-content-wrapper, 
+.left-canine-master,
+.right-canine-master,
+.rewards-wrapper{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.grey-bg-right ,.grey-bg-left,.gray-bg{
+
+    height: auto;
+    width: 100%;
+
+}
+
+ 
+.text-align-center{
+
+    text-align: center;
+}
+ 
+
+ 
+.white-color{
+
+    color: #fff;
+}
+
+.grey-bg-left,
+.grey-bg-right,
+.btn-wrapper .btn,
+.rewards-wrapper,
+body{
+    position: relative;
+}
+
+.navbar .left_div,
+.navbar .right_div,
+.navbar .right_div ul{
+    display: flex;
+}
+
+.footer-inner-text h1,h2,h3,
+.p-text,
+.reward-img-div p,
+.grey-bg-left-content p{
+    text-transform: uppercase;
+}
+
+.after-div,
+.before-div,
+.left-canine-master,.right-canine-master,
+.navbar-dropdown1,
+.navbar-dropdown{
+    position: absolute;
+    
+}
